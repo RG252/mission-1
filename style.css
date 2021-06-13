@@ -22,6 +22,7 @@
     padding: 12px;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
   }
   
   .container {
@@ -54,6 +55,23 @@
   .hero__image {
     width: 100%;
   }
+
+.hero__text{
+  font-size: 30px;
+  color: #1d3557;
+  margin: 20px 0px;
+}
+
+/*Menu Styles*/
+
+.food__menu__card{
+  width: 100%;
+}
+
+.food__image{
+  width: 100%;
+}
+
   @media (min-width: 768px) {
     .navbar {
       justify-content: space-between;
@@ -63,7 +81,7 @@
       width: 150px;
     }
     .button__primary {
-      padding: 20px;
+      padding: 12px 20px;
       font-size: 20px;
     }
     .hero__container {
@@ -79,11 +97,14 @@
     .container {
       max-width: 1010px;
     }
-    .hero__image__container {
-      width: 500px;
-      height: 500px;
+    
+    .hero__text{
+      font-size: 40px;
     }
   }
   
   @media (min-width: 1400px) {
+    .comtainer{
+      max-width: 1250px;
+    }
   }
